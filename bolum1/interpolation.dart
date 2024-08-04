@@ -7,5 +7,5 @@ void main(){
 
   int en = 12;
   int boy = 10;
-  print("Eni $en boyu $boy olan dikdortkenin alani: ${en*boy}"Eni $en boyu $boy olan dikdortkenin alani: ${en*boy}Eni $en boyu $boy olan dikdortkenin alani: ${en*boy});
+  print("Eni $en boyu $boy olan dikdortkenin alani: ${en*boy}");
 }
