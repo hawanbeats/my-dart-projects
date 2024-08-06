@@ -1,4 +1,5 @@
 void main(){
+  //for kullanimi
   for(int i=0;i<10;i++){
     if(i % 2 == 0){
       print(i);
@@ -23,5 +24,19 @@ void main(){
   int sayac = 0;
   for(;sayac < 3;){
     print(sayac);
+    sayac++;
   }
+  //while kullanimi
+  int sayac1 = 10;
+  while(sayac1 < 15){
+    print(sayac1);
+    sayac1++;
+  }
+  //do-while kullanimi
+  int sayac2 = 20;
+  do{
+    print(sayac2);
+    sayac2++;
+  }
+  while(sayac2<25);
 }
