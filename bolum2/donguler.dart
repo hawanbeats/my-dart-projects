@@ -14,9 +14,14 @@ void main(){
   for(int gecici1 in yas){
     print(gecici1);
   }
-  
+
   List okul = ["ytu","itu","odtu"];
   for(String gecici2 in okul){
     print(gecici2);
+  }
+
+  int sayac = 0;
+  for(;sayac < 3;){
+    print(sayac);
   }
 }
