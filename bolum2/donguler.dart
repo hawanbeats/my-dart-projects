@@ -48,13 +48,13 @@ void main(){
       print("1.deger: $i");
     }
   }
-  for(int i=0;i<10;i++){
+  distakiDongu:for(int i=0;i<10;i++){
     if(i>5){
       print("2.deger: $i");
     }
     else{
       print("x");
-      continue;
+      continue distakiDongu;
     }
   }
 }
