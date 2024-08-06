@@ -1,6 +1,9 @@
 void main(){
   ortalamaHesapla();
-  alanHesapla(5,8);
+  int alan = alanHesapla(5,8);
+  print("alan: $alan");
+  print("hacim: ${hacimHesapla(8, 9, 10)}");
+  print("kucuk olan sayi: ${minOlaniBul(5,9)}");
 }
 
 void ortalamaHesapla(){
@@ -9,6 +12,12 @@ void ortalamaHesapla(){
   print("ortalamaniz: $ortalama");
 }
 
+int hacimHesapla(int en, int boy, int yukseklik){
+  return en * boy * yukseklik;
+}
+
 int alanHesapla(int sayi1, int sayi2){
   return sayi1 * sayi2;
 }
+
+int minOlaniBul(int s1,int s2) => (s1 > s2) ? s2 : s1;
