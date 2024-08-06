@@ -39,4 +39,22 @@ void main(){
     sayac2++;
   }
   while(sayac2<25);
+
+  for(int i=0;i<10;i++){
+    if(i>5){
+      break;
+    }
+    else{
+      print("1.deger: $i");
+    }
+  }
+  for(int i=0;i<10;i++){
+    if(i>5){
+      print("2.deger: $i");
+    }
+    else{
+      print("x");
+      continue;
+    }
+  }
 }
