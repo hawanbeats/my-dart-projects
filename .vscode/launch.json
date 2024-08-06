@@ -8,7 +8,7 @@
             "name": "Dart & Flutter",
             "request": "launch",
             "type": "dart",
-            "program": "D://my_projects/hello_world.dart"
+            "program": "D://my_projects/bolum2/operatorler.dart"
         }
     ]
 }
