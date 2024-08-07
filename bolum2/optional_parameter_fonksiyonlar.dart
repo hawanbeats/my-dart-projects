@@ -14,19 +14,19 @@ void main(){
 
 //required parameters
 /*
-  int sayilariTopla(int sayi1,int sayi2,int sayi3){
-    return sayi1 + sayi2 + sayi3;
+int sayilariTopla(int sayi1,int sayi2,int sayi3){
+  return sayi1 + sayi2 + sayi3;
 }
 */
 
 //optional parameters
 /*
-  int sayilariTopla(int sayi1,[int sayi2 = 0, int sayi3 = 0]){
-    return sayi1 + sayi2 + sayi3;
+int sayilariTopla(int sayi1,[int sayi2 = 0, int sayi3 = 0]){
+  return sayi1 + sayi2 + sayi3;
 }
 */
 
 //optional named parameters
-  int sayilariTopla(int sayi1,{int sayi2 = 0, int sayi3 = 0}){
-    return sayi1 + sayi2 + sayi3;
-  }
+int sayilariTopla(int sayi1,{int sayi2 = 0, int sayi3 = 0}){
+  return sayi1 + sayi2 + sayi3;
+}
