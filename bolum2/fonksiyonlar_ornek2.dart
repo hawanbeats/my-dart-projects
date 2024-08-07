@@ -2,7 +2,7 @@
 //daire alanini hesaplayan fonksiyon yaz. pi sayisi opsiyonel olmali. eger verilmediyse varsayilan olarak 3.14 olarakm hesaplanmali.
 
 void main(){
-  double alan = daireAlanHesapla(5,pi: 3);
+  double alan = daireAlanHesapla(5,pi: 3.2);
   print("dairenin alani = $alan"); 
 }
 
