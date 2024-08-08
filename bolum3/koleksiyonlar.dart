@@ -6,7 +6,7 @@ void main(){
   var tekSayilar = [1,3,5];
   var ciftSayilar = [2,4,6];
 
-  liste = [...tekSayilar, ...ciftSayilar];
+  liste = [...tekSayilar, ...ciftSayilar]; //... operatoru spreads operatorudur
   print(liste);
 
   var isimler = {"hasan","ahmet","mehmet"};
