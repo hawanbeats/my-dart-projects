@@ -9,6 +9,12 @@ void main(){
   liste = [...tekSayilar, ...ciftSayilar]; //... operatoru spreads operatorudur
   print(liste);
 
+  var liste2 = <dynamic>[];
+  var ardisikSayilar = [1,2,3,4,5];
+  var ardisikSayilar2 = [6,7,8,9,10];
+  liste2 = [ardisikSayilar, ardisikSayilar2]; //spreads operatoru kullanmadigimizda 1 liste icerisinde 2 ayri liste olusturuyor
+  print(liste2);
+
   var isimler = {"hasan","ahmet","mehmet"};
   var yaslar = {22,23,24};
   set.addAll(isimler);
