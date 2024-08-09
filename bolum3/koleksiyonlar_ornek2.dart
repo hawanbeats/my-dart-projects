@@ -7,8 +7,9 @@ void main(){
     "ssd": true
   };
   print(bilgisayar);
-
+  
+  print("Bilgisayar bilgileri");
   for(dynamic bilgi in bilgisayar.entries){
-    print("${bilgi.key}: ${bilgi.value} ");
+    print(" ${bilgi.key}: ${bilgi.value}");
   }
 }
