@@ -12,7 +12,7 @@ class Araba{
   int? arabaYili;
   bool? otomatikMi;
 
-  Araba(this.arabaModeli, this.arabaYili, this.otomatikMi){ //named constructor
+  Araba(this.arabaModeli, this.arabaYili, this.otomatikMi){ //default constructor
     print("araba");
   }
   Araba.otomatikYazmadan(this.arabaModeli, this.arabaYili){ //named constructor
