@@ -8,7 +8,7 @@ void main(){
 
 class Ogrenci{
   int ogrenciNo = 1;
-  String ogrenciSoyad = "";
+  String? ogrenciSoyad = "";
   bool aktifMi = true;
 }
 
