@@ -7,6 +7,7 @@ void main(){
 }
 
 class Ogrenci{
+  //instance variables
   int ogrenciNo = 1;
   String? ogrenciSoyad = "";
   bool aktifMi = true;
