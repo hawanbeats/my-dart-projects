@@ -1,9 +1,11 @@
 class Musteri {
   int? _musteriNo;
 
-  /* Musteri(int musteriNo) {
+  /* 
+  Musteri(int musteriNo) {
     this.musteriNo = musteriNo;
-  } */
+  } 
+  */
 
   //Musteri(this._musteriNo);
 
@@ -17,7 +19,6 @@ class Musteri {
 
   String get musteriNoSoyle2  => "Musteri no : $_musteriNo";
   
-
   void set musteriNoAta(int no) {
     if (no > 300) {
       _musteriNo = no;
