@@ -1,6 +1,11 @@
 class Ogrenci{
-  int? id = 0;
-  int? not = 0;
+  int id;
+  int not;
 
-  Ogrenci({this.id, this.not});
+  Ogrenci({this.id = 0, this.not = 0});
+
+  @override
+  String toString() {
+    return "id: $id, not degeri: $not";
+  }
 }
