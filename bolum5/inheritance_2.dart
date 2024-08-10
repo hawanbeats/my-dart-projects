@@ -3,6 +3,7 @@ void main(){
   hasan.selamla();
   hasan.memleketDegistir("ankara");
   Asker ali = Asker("ali", 25);
+  ali.askerCalisiyor();
   ali.selamla();
   ali.askerMemleketi();
 }
@@ -13,6 +14,11 @@ class Asker{
   String memleket = "istanbul";
 
   Asker(this.ad, this.yas);
+
+  void askerCalisiyor(){
+    print("asker sinifi calisiyor");
+  }
+
   void selamla(){
     print("merhaba ben asker $ad yasim $yas");
   }
