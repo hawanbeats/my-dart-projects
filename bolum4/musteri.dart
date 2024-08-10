@@ -17,7 +17,7 @@ class Musteri {
     return "Musteri no : $_musteriNo";
   }
 
-  String get musteriNoSoyle2  => "Musteri no : $_musteriNo";
+  String get musteriNoSoyle2  => "Musteri no : $_musteriNo"; //getter
   
   void set musteriNoAta(int no) { //setter
     if (no > 300) {
