@@ -13,13 +13,13 @@ class Musteri {
     _musteriNoKontrol(musteriNo);
   }
 
-  String get musteriNoSoyle {
+  String get musteriNoSoyle { //getter
     return "Musteri no : $_musteriNo";
   }
 
   String get musteriNoSoyle2  => "Musteri no : $_musteriNo";
   
-  void set musteriNoAta(int no) {
+  void set musteriNoAta(int no) { //setter
     if (no > 300) {
       _musteriNo = no;
     } else
