@@ -1,8 +1,10 @@
 void main(){
   Er hasan = Er("hasan", 22);
-  print(hasan);
   hasan.selamla();
   hasan.memleketDegistir("ankara");
+  Asker ali = Asker("ali", 25);
+  ali.selamla();
+  ali.askerMemleketi();
 }
 
 class Asker{
@@ -10,11 +12,13 @@ class Asker{
   int yas = 0;
   String memleket = "istanbul";
 
-  Asker(this.ad, this.yas){
-    print("asker sinifi calisiyor");
-  }
+  Asker(this.ad, this.yas);
   void selamla(){
     print("merhaba ben asker $ad yasim $yas");
+  }
+
+  void askerMemleketi(){
+    print("memleketim $memleket");
   }
 }
 
