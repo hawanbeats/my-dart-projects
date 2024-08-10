@@ -5,8 +5,8 @@ import 'veritabani_islemleri.dart';
 main(List<String> args) {
   Musteri m1 = Musteri(150);
   m1.bilgileriYazdir();
-  m1.musteriNoAta = 952;
-  print(m1.musteriNoSoyle);
+  m1.musteriNoAta = 952; //setter kullanimi
+  print(m1.musteriNoSoyle); //getter kullanimi
 
   Musteri m2 = Musteri(-999);
 
