@@ -5,6 +5,13 @@ void main(){
   normal.davetEt();
   AdminUser admin = AdminUser();
   admin.girisYap();
+
+  User user1 = NormalUser(); //upcasting
+  User user2 = AdminUser(); 
+  List<User> tumUserlar = [];
+  tumUserlar.add(user1);
+  tumUserlar.add(user2);
+  test(user1);
 }
 
 class User{
@@ -16,6 +23,10 @@ class User{
     print("sifre: $sifre");
     print("user giris yapti");
   }
+}
+
+void test(User kullanici){ //polymorphism
+  kullanici.girisYap();
 }
 
 class NormalUser extends User{
