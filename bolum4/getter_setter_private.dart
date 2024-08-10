@@ -1,4 +1,3 @@
-import 'ilk_sinif_ornek.dart';
 import 'musteri.dart';
 import 'veritabani_islemleri.dart';
 
