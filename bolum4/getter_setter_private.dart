@@ -7,8 +7,6 @@ main(List<String> args) {
   m1.musteriNoAta = 952; //setter kullanimi
   print(m1.musteriNoSoyle); //getter kullanimi
 
-  Musteri m2 = Musteri(-999);
-
   VeritabaniIslemleri db = VeritabaniIslemleri();
 
   bool sonuc = db.baglan();
