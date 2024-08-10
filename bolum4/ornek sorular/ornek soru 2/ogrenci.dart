@@ -1,4 +1,6 @@
 class Ogrenci{
-  int? _id = 0;
-  int? _not = 0;
+  int? id = 0;
+  int? not = 0;
+
+  Ogrenci({this.id, this.not});
 }
