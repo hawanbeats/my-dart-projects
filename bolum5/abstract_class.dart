@@ -1,17 +1,22 @@
 void main(){
   Sekil kare = Kare(2);
-  print("Karenin alani: ${kare.alanHesapla()}");
-  print("Karenin cevresi: ${kare.cevreHesapla()}");
+  print("kenari ${kare.kenar} olan karenin alani: ${kare.alanHesapla()}");
+  print("kenari ${kare.kenar} olan karenin cevresi: ${kare.cevreHesapla()}");
   kare.selamla();
+  
   Sekil dortgen = Dikdortgen(2, 4);
-  print("Dikdortgenin alani: ${dortgen.alanHesapla()}");
-  print("Dikdorgenin cevresi: ${dortgen.cevreHesapla()}");
+  print("eni ${dortgen.en} boyu ${dortgen.boy} olan dikdortgenin alani: ${dortgen.alanHesapla()}");
+  print("eni ${dortgen.en} boyu ${dortgen.boy} olan dikdortgenin cevresi: ${dortgen.cevreHesapla()}");
   dortgen.selamla();
 }
 
 abstract class Sekil{
   double alanHesapla();
   double cevreHesapla();
+
+  get kenar => null;
+  get en => null;
+  get boy => null;
 
   void selamla(){
     print("ben sekil sinifindanim");
