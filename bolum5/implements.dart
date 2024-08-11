@@ -2,9 +2,7 @@ void main(){
 
 }
 
-abstract class Hayvan{
-
-}
+abstract class Hayvan{}
 
 abstract class Ucabilen{
   void ucan();
