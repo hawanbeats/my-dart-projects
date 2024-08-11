@@ -9,7 +9,7 @@ void main(){
   fark.cikar();
 
   print(Matematik.pi);
-  print(Matematik.toplamIslemSayisi);
+  print("toplam islem sayisi: ${Matematik.toplamIslemSayisi}");
 }
 
 class Matematik{
