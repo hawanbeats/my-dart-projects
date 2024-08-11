@@ -1,13 +1,12 @@
 void main(){
-  Ogrenci hasan = Ogrenci("hasan", 7);
-  hasan = Ogrenci("ali", 10);
+  const Ogrenci hasan = Ogrenci("hasan", 7);
 
-  
+  print(hasan.id);
 }
 
 class Ogrenci{
-  String isim = "";
-  int id = 0;
+  final String isim;
+  final int id;
 
-  Ogrenci(this.isim, this.id);
+  const Ogrenci(this.isim, this.id);
 }
