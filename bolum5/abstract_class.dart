@@ -1,11 +1,11 @@
 void main(){
   Sekil kare = Kare(2);
-  print(kare.alanHesapla());
-  print(kare.cevreHesapla());
+  print("Karenin alani: ${kare.alanHesapla()}");
+  print("Karenin cevresi: ${kare.cevreHesapla()}");
   kare.selamla();
   Sekil dortgen = Dikdortgen(2, 4);
-  print(dortgen.alanHesapla());
-  print(dortgen.cevreHesapla());
+  print("Dikdortgenin alani: ${dortgen.alanHesapla()}");
+  print("Dikdorgenin cevresi: ${dortgen.cevreHesapla()}");
   dortgen.selamla();
 }
 
