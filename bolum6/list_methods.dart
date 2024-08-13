@@ -20,6 +20,14 @@ void main(){
 
   bool sonucEvery = tumOgrenciler.every((element) => element.isim.length == 0);
   print(sonucEvery);
+
+  var bulunan = tumOgrenciler.firstWhere((element) => element.id == 1);
+  print(bulunan);
+
+  var mapIterable = tumOgrenciler.map((Person e) => "${e.isim}");
+  print(mapIterable);
+
+  
 }
 
 class Person{
@@ -36,7 +44,7 @@ class Person{
 
 class Ogrenci extends Person{
   int dersSayi = 0;
-  Ogrenci(id, isim, dersSayi) : super(id, isim);
+  Ogrenci(id , isim, dersSayi) : super(id, isim);
 
   @override
   String toString(){
