@@ -5,7 +5,7 @@ void main(){
   var emre = Ogrenci(7, "emre", 4);
 
   List<Person> tumOgrenciler = [hasan, ali, yunus, emre];
-  print(tumOgrenciler);
+  tumOgrenciler.addAll([yunus, emre]);
 }
 
 class Person{
@@ -16,7 +16,7 @@ class Person{
 
   @override
   String toString(){
-    return "id: $id ve isim: $isim";
+    return "id: $id ve isim: $isim\n";
   }
 }
 
@@ -26,6 +26,6 @@ class Ogrenci extends Person{
 
   @override
   String toString(){
-    return "id: $id, isim: $isim ve alinan ders sayisi: $dersSayi";
+    return "id: $id, isim: $isim ve alinan ders sayisi: $dersSayi\n";
   }
 }
