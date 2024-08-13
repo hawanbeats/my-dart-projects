@@ -6,6 +6,7 @@ void main(){
 
   List<Person> tumOgrenciler = [hasan, ali, yunus, emre];
   tumOgrenciler.addAll([yunus, emre]);
+  print(tumOgrenciler);
 }
 
 class Person{
