@@ -13,6 +13,10 @@ void main(){
 
   Map<int, Person> map = tumOgrenciler.asMap();
   print(map);
+  print(map[0]);
+  print(map[0]!.isim);
+
+  print(tumOgrenciler.contains(hasan));
 }
 
 class Person{
