@@ -17,6 +17,9 @@ void main(){
   print(map[0]!.isim);
 
   print(tumOgrenciler.contains(hasan));
+
+  bool sonucEvery = tumOgrenciler.every((element) => element.isim.length == 0);
+  print(sonucEvery);
 }
 
 class Person{
