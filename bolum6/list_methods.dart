@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 void main(){
   Person hasan = Person(3, "hasan");
   Ogrenci ali = Ogrenci(1, "ali", 8);
@@ -27,7 +29,16 @@ void main(){
   var mapIterable = tumOgrenciler.map((Person e) => "${e.isim}");
   print(mapIterable);
 
-  
+  tumOgrenciler.sort((ogr1, ogr2){
+    if(ogr1.id < ogr2.id){
+      return -1;
+    }
+    else if(ogr1.id > ogr2.id){
+      return -1;
+    }
+    else return 0;
+  });
+  print(tumOgrenciler);
 }
 
 class Person{
