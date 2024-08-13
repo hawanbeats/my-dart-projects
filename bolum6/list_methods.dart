@@ -7,6 +7,12 @@ void main(){
   List<Person> tumOgrenciler = [hasan, ali, yunus, emre];
   tumOgrenciler.addAll([yunus, emre]);
   print(tumOgrenciler);
+
+  bool sonuc = tumOgrenciler.any((Person element) => element.id > 5);
+  print(sonuc);
+
+  Map<int, Person> map = tumOgrenciler.asMap();
+  print(map);
 }
 
 class Person{
