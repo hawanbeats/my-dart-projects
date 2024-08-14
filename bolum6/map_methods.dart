@@ -25,6 +25,6 @@ void main(){
   var mapUpdate = map.update('id', (value) => value * 3); //map.uptade(key, update)
   print(mapUpdate);
 
-  var mapUpdate2 = map.update('id_yeni', (value) => value * 3, ifAbsent: () => 100);
-  print(mapUpdate2);
+  map.update('id_yeni', (value) => value * 3, ifAbsent: () => 100);
+  print(map);
 }
