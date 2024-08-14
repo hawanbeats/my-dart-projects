@@ -14,4 +14,14 @@ void main(){
   var liste = [1, 2, 3, 4];
   var mapFromIterables = Map.fromIterable(liste);
   print(mapFromIterables);
+
+  var mapFromIterables2 = Map<String, String>.fromIterable(liste, 
+  key: (item){
+    return '$item';
+  },
+  value: (item) => '${item * 2}');
+  print(mapFromIterables2);
+
+  var mapUpdate = map.update('id', (value) => value * 3);
+  print(mapUpdate);
 }
