@@ -22,6 +22,9 @@ void main(){
   value: (item) => '${item * 2}');
   print(mapFromIterables2);
 
-  var mapUpdate = map.update('id', (value) => value * 3); //map.uptade()
+  var mapUpdate = map.update('id', (value) => value * 3); //map.uptade(key, update)
   print(mapUpdate);
+
+  var mapUpdate2 = map.update('id_yeni', (value) => value * 3, ifAbsent: () => 100);
+  print(mapUpdate2);
 }
