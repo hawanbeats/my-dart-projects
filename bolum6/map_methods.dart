@@ -9,5 +9,9 @@ void main(){
 
   var yeniMap = Map.from({'deger': 22});
   var mapFromEntries = Map.fromEntries(map.entries);
-  print(map);
+  print(mapFromEntries);
+
+  var liste = [1, 2, 3, 4];
+  var mapFromIterables = Map.fromIterable(liste);
+  print(mapFromIterables);
 }
