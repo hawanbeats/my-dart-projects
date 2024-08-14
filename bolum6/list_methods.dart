@@ -1,5 +1,3 @@
-import 'dart:developer';
-
 void main(){
   Person hasan = Person(3, "hasan");
   Ogrenci ali = Ogrenci(1, "ali", 8);
