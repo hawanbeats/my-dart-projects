@@ -8,6 +8,7 @@ void main(){
   map['renk'] = "kirmizi";
 
   var yeniMap = Map.from({'deger': 22});
+  print(yeniMap);
   var mapFromEntries = Map.fromEntries(map.entries); //Map.fromEntries
   print(mapFromEntries);
 
