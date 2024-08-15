@@ -8,39 +8,14 @@ void main(){
   print(genericMyStack.pop());
   print(genericMyStack.pop());
 }
+class GenericMyStack<T>{
+  List<T> listem = <T>[];
 
-class MyStack{
-  List listem = [];
-
-  push(yeniEleman){
+  push(T yeniEleman){
     listem.add(yeniEleman);
   }
 
-  pop(){
-    return listem.removeLast();
-  }
-}
-
-class StringMyStack{
-  List<String> listem = <String>[];
-
-  push(String yeniEleman){
-    listem.add(yeniEleman);
-  }
-
-  String pop(){
-    return listem.removeLast();
-  }
-}
-
-class IntMyStack{
-  List<int> listem = <int>[];
-
-  push(int yeniEleman){
-    listem.add(yeniEleman);
-  }
-
-  int pop(){
+  T pop(){
     return listem.removeLast();
   }
 }
