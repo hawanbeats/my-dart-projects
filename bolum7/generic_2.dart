@@ -1,30 +1,12 @@
 void main(){
-  MyStack myStack = MyStack();
-  myStack.push(2);
-  myStack.push("hasan");
-  myStack.push(true);
+  GenericMyStack genericMyStack = GenericMyStack();
+  genericMyStack.push(2);
+  genericMyStack.push("hasan");
+  genericMyStack.push(true);
 
-  print(myStack.pop());
-  print(myStack.pop());
-  print(myStack.pop());
-
-  StringMyStack stringMyStack = StringMyStack();
-  stringMyStack.push("hasan");
-  stringMyStack.push("emre");
-  stringMyStack.push("ali");
-
-  print(stringMyStack.pop());
-  print(stringMyStack.pop());
-  print(stringMyStack.pop());
-  
-  IntMyStack intMyStack = IntMyStack();
-  intMyStack.push(22);
-  intMyStack.push(50);
-  intMyStack.push(3);
-
-  print(intMyStack.pop());
-  print(intMyStack.pop());
-  print(intMyStack.pop());
+  print(genericMyStack.pop());
+  print(genericMyStack.pop());
+  print(genericMyStack.pop());
 }
 
 class MyStack{
