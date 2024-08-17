@@ -1,9 +1,8 @@
+//soru 5
+//kullanicidan aldiginiz integer pozitif sayilari bir listede tut ve kullanici -1 girdiginde girilen sayilarin ortalamasini ekrana yazdir.
 import 'dart:io';
 
 void main(){
-//soru 5
-//kullanicidan aldiginiz integer pozitif sayilari bir listede tut ve kullanici -1 girdiginde girilen sayilarin ortalamasini ekrana yazdir.
-
   int not;
   var list = <int>[];
   
