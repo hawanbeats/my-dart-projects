@@ -1,10 +1,5 @@
 void main(){
-  String username = "";
-  idGoreKullaniciGetir(5).then((value) => print(value)
-  username = value.kullanici);
-
-
-  kullaniciKullanarakKursGetir(username);
+  idGoreKullaniciGetir(5).then((value) => kullaniciKullanarakKursGetir(value['kullanici']));;
 }
 
 Future<Map<String, dynamic>> idGoreKullaniciGetir(int id){
