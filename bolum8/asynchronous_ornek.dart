@@ -1,5 +1,5 @@
 void main(){
-  idGoreKullaniciGetir(5).then((value) => kullaniciKullanarakKursGetir(value['kullanici']));;
+  idGoreKullaniciGetir(5).then((value) => kullaniciKullanarakKursGetir(value['kullanici']));
 }
 
 Future<Map<String, dynamic>> idGoreKullaniciGetir(int id){
