@@ -1,3 +1,6 @@
+//bir fonksiyon yaz ve bu fonksiyon aldigi id parametresine gore bir kullanici getirsin. bu islem 2 saniye sonunda sonuclanacaktir ve getirilen kisi bilgisi map olarak alinacaktir. bu map yapisinda username ve id bilgisi olmasi yeterlidir.
+//getirilen kisi bilgisinde username degerini kullanarak kisinin kurslari getirilen bir fonksiyon yaz ve bu fonksiyon 4 saniye surecek username degerine ait olan kurslari icinde kursun adlari olan bir liste olarak dondurecektir.
+//son olarak da kurslar listesindeki ilk elemani parametre olarak alan ve bu kursa ait bir yorumu donduren bir fonksiyon yaz. bu fonksiyon da 1 saniye surecektir.
 void main() {
   idGoreKullaniciGetir(5).then((value){
     print(value);
