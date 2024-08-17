@@ -1,7 +1,6 @@
-void main(){
 //soru 2
 //keyleri string, degerleri dynamic olan bir map olustur. map yapisinda bilgisayarinizin islemci cekirdek sayisini, ram miktarini ve ssd olup olmadigi bilgisini tut ve ekrana yazdir.
-
+void main(){
   var bilgisayar = <String, dynamic>{
     "islemci cekirdek sayisi": 4,
     "ram miktari": 16,

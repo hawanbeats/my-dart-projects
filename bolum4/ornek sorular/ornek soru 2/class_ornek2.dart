@@ -1,9 +1,9 @@
+//soru 2
+//ogrenci isimli sinif olustur ve bu sinifta ogrencinin idsi ve not degeri olsun. 100 elemanli bir listede id ve not degerlerini rastgele olusturarak bu ogrencilerim sakla. bu ogrencileri yazdiran metotu yaz.
 import 'dart:math';
 import 'ogrenci.dart';
 
 void main(){
-//soru 2
-//ogrenci isimli sinif olustur ve bu sinifta ogrencinin idsi ve not degeri olsun. 100 elemanli bir listede id ve not degerlerini rastgele olusturarak bu ogrencilerim sakla. bu ogrencileri yazdiran metotu yaz.
   // ignore: unused_local_variable
   Ogrenci ogr1 = Ogrenci(id: 5, not: 55);
   List<Ogrenci> tumOgrenciler = List.filled(5, Ogrenci());
