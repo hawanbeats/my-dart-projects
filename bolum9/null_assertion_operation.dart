@@ -1,7 +1,6 @@
 int? nullOlabilirAmaDegil = 1;
 
 void main(){
-  
   List<int?> nullDegerTutanListe = [2, 3, null];
 
   int a = nullOlabilirAmaDegil!;
