@@ -1,13 +1,13 @@
-main(List<String> args) async {
+void main() async{
   print("Program basladı");
-  Future.delayed(Duration(seconds: 0), () {
+  Future.delayed(Duration(seconds: 0), (){
     print("0 saniyelik işlem");
   });
   print("Program bitti");
 
   Future<int> toplam = Future(() {
     int toplam = 0;
-    for (int i = 0; i < 1000000000; i++) {
+    for(int i = 0; i < 1000000000; i++){
       toplam = toplam + i;
     }
     //return toplam;
@@ -16,10 +16,10 @@ main(List<String> args) async {
 
   //toplam.then((int toplam) => print(toplam)).catchError((hata) => print(hata));
 
-  try {
+  try{
     int forSonuc = await toplam;
     print("**** $forSonuc");
-  } catch (e) {
+  }catch (e){
     print(e);
   }
 
