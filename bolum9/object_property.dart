@@ -16,10 +16,8 @@ class Yemek{
   void setTanim(String tanim){
     this.tanim = tanim;
   }
-  
-  Yemek(int fiyat){
-    this.fiyat = fiyat;
-  }
+
+  Yemek(this.fiyat);
 }
 
 void main(){
@@ -31,7 +29,8 @@ void main(){
   }
   else print(sonuc);
 
-  final yemegim = Yemek();
+  final yemegim = Yemek(100);
   yemegim.setTanim('kuru fasulye');
   print(yemegim.tanim);
+  print(yemegim.fiyat);
 }
