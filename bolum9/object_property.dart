@@ -16,11 +16,5 @@ void main(){
   if(sonuc == null){
     print("null deger oldu");
   }
-  else{
-    metniYazdir(sonuc);
-  }
-}
-
-void metniYazdir(String ifade){
-  print(ifade);
+  else print(sonuc);
 }
