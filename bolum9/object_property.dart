@@ -9,6 +9,13 @@ class RastgeleMetinUretici{
   }
 }
 
+class Yemek{
+  late final String tanim;
+  void setTanim(String tanim){
+    this.tanim = tanim;
+  }
+}
+
 void main(){
   final uretici = RastgeleMetinUretici();
   String? sonuc = uretici.degerUret();
@@ -17,4 +24,8 @@ void main(){
     print("null deger oldu");
   }
   else print(sonuc);
+
+  final yemegim = Yemek();
+  yemegim.setTanim('kuru fasulye');
+  print(yemegim.tanim);
 }
