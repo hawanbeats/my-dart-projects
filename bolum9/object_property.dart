@@ -11,8 +11,14 @@ class RastgeleMetinUretici{
 
 class Yemek{
   late final String tanim;
+  late final int fiyat;
+
   void setTanim(String tanim){
     this.tanim = tanim;
+  }
+  
+  Yemek(int fiyat){
+    this.fiyat = fiyat;
   }
 }
 
